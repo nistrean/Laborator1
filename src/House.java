@@ -1,9 +1,9 @@
 public class House {
-    String color;
-    int floors;
-    int numberRooms;
-    int numberDoors;
-    boolean parking;
+    private String color;
+    private int floors;
+    private int numberRooms;
+    private int numberDoors;
+    private boolean parking;
 
     public House(String color,int floors,int numberRooms){
         this.color = color;
@@ -23,7 +23,7 @@ public class House {
     }
     public void setColor(String color){
         this.color = color;
-    }
+    }//modifica atributele
     public void setFloors(int floors){
         this.floors = floors;
     }
@@ -36,4 +36,8 @@ public class House {
     public void setParking(boolean parking){
         this.parking = parking;
     }
+    public String getColor(){
+        return this.color;
+    }
+
 }
