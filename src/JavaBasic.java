@@ -42,12 +42,15 @@ public class JavaBasic {
     static void addition(double x, double y){
         System.out.println(x + y);
     }
+
     static void substraction(double x, double y){
         System.out.println(x - y);
     }
+
     static void square(int c){
         System.out.println(c * c);
     }
+
     static void mod(int x, int y){
         System.out.println(x % y);
     }
